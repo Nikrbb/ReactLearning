@@ -1,15 +1,12 @@
 
 import './App.css';
-import Alert from "./Components/Alert";
+import List from "./Components/List";
 function App() {
   return (
-      <>
-        <Alert type="warning" text="what is love?" />
-        <Alert type="primary" text="Baby don`t hurt me" />
-        <Alert type="success" text="don`t hurt me" />
-        <Alert type="danger" text="no more" />
-      </>
-
+        <List>
+            <p>one</p>
+            <p>two</p>
+        </List>
   );
 }
 
