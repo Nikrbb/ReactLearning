@@ -1,12 +1,9 @@
 
 import './App.css';
-import List from "./Components/List";
+import BtnGroup from "./Components/BtnGroup";
 function App() {
   return (
-        <List>
-            <p>one</p>
-            <p>two</p>
-        </List>
+      <BtnGroup />
   );
 }
 

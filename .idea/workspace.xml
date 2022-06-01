@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f84962b-2e7e-4ce1-80d0-1e3965fb702c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/react-app/src/Components/BtnGroup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-app/src/Components/Alert.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/Components/List.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/Components/List.jsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654086109136</updated>
-      <workItem from="1654086110334" duration="6045000" />
+      <workItem from="1654086110334" duration="8645000" />
     </task>
     <servers />
   </component>
