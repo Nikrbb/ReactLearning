@@ -1,4 +1,4 @@
-function QuickExample (prop) {
+function Card (prop) {
     const { arr } = prop
     function randomLink (links = arr) {
         Array.isArray(links)
@@ -17,7 +17,7 @@ function QuickExample (prop) {
         </div>
     </div>
 }
-QuickExample.defaultProps = {
+Card.defaultProps = {
     arr: [
         'https://www.ixbt.com/live/games/nox-nestareyuschaya-klassika.html',
         'https://diablo2.blizzard.com/',
@@ -30,4 +30,4 @@ QuickExample.defaultProps = {
     ],
 };
 
-export default QuickExample;
+export default Card;

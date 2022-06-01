@@ -1,10 +1,10 @@
 import './App.css';
-import QuickExample from "./Components/Card";
+import Card from "./Components/Card";
 function App() {
   // const array = ['https://ru.reactjs.org/docs/components-and-props.html', 'https://ru.reactjs.org/docs/rendering-elements.html']
   return (
       <>
-        <QuickExample />
+        <Card />
         {/*<QuickExample arr={array} />;*/}
       </>
   );
