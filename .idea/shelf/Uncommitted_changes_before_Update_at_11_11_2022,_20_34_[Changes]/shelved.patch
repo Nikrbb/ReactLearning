@@ -1,0 +1,43 @@
+Index: react-app/src/Components/Card.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from \"react\";\n\nfunction TitleText (props) {\n    return !props ? null :\n                props.title ?\n                    <h4 className=\"card-title\">{props.title}</h4> :\n                    <p className=\"card-text\">{props.text}</p>\n}\nTitleText()\nclass Card extends React.Component {\n\n    render() {\n        const { title, text } = this.props;\n        return  <>\n                    <div className=\"card\">\n                        <div className=\"card-body\">\n                            <TitleText title={title}/>\n                            <TitleText text={text} />\n                        </div>\n                    </div>\n                </>\n    }\n}\nCard.defaultProps = {\n    title: null,\n    text: null\n};\nexport default Card
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/react-app/src/Components/Card.jsx b/react-app/src/Components/Card.jsx
+--- a/react-app/src/Components/Card.jsx	(revision 37e1a27dec5dd1abbe3411622f00c657e1e252cc)
++++ b/react-app/src/Components/Card.jsx	(date 1668191684093)
+@@ -1,24 +1,15 @@
+ import React from "react";
+-
+-function TitleText (props) {
+-    return !props ? null :
+-                props.title ?
+-                    <h4 className="card-title">{props.title}</h4> :
+-                    <p className="card-text">{props.text}</p>
+-}
+-TitleText()
+ class Card extends React.Component {
+-
+     render() {
+-        const { title, text } = this.props;
++        const {title, text} = this.props;
+         return  <>
+-                    <div className="card">
+-                        <div className="card-body">
+-                            <TitleText title={title}/>
+-                            <TitleText text={text} />
+-                        </div>
+-                    </div>
+-                </>
++            <div className="card">
++                <div className="card-body">
++                    {<h4 className="card-title">{title}</h4> ?? null}
++                    {<p className="card-text">{text}</p> ?? null}
++                </div>
++            </div>
++        </>
+     }
+ }
+ Card.defaultProps = {
