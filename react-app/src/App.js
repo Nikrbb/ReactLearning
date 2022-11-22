@@ -1,8 +1,8 @@
-import Default from "./components/Default";
+import MyForm from "./components/MyForm";
 function App() {
   return (
       <>
-          <Default/>
+          <MyForm/>
       </>
   );
 }
